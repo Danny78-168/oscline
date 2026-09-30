@@ -1,8 +1,8 @@
-name = "my-redirect-worker"
+name = "oscline"
 main = "index.js"
 compatibility_date = "2024-01-01"
 
 [[d1_databases]]
-binding = "DB"              # 必須為 DB，與代碼中的 env.DB 對應
-database_name = "stats-db"  # 您的 D1 資料庫名稱
-database_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx" # 替換為真實的 database_id
+binding = "DB"
+database_name = "stats-db"
+database_id = "65666801-2d77-4fe9-b84d-892e27c48ea0"
